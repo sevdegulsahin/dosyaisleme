@@ -303,7 +303,7 @@ public class GUI {
                 );
 
                 if (result == JOptionPane.YES_OPTION) {
-                    EmailGonder email = new EmailGonder(kelime, total);
+                    org.example.demo4.EmailGonder email = new org.example.demo4.EmailGonder(kelime, total);
                 }
 
 
